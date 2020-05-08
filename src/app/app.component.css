@@ -1,0 +1,19 @@
+mat-grid-tile {
+  background: lightblue;
+}
+
+.grid-right {
+  width: 100%;
+  height: 100%;
+
+}
+
+.grid-left {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  direction:rtl;
+
+}
+
+

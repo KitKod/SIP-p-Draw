@@ -1,1 +1,39 @@
-<mat-slider min="1" max="100" step="1" value="1"></mat-slider>
+<app-toolbar></app-toolbar>
+<div>
+  <mat-grid-list cols="2">
+    <mat-grid-tile>
+      <div class="grid-left">
+        <p>Test</p>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <div class="grid-right">
+        <mat-accordion class="accordion">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Personal data
+              </mat-panel-title>
+              <mat-panel-description>
+                Type your name and age
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+
+            <p>Content1</p>
+          </mat-expansion-panel>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Self aware panel
+              </mat-panel-title>
+              <mat-panel-description>
+                Currently I am
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>Content2</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
